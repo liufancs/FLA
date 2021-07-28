@@ -8,7 +8,7 @@ Zhiyong Cheng, Fan Liu, Shenghan Mei, Yangyang Guo, Lei Zhu and Liqiang Nie. Fea
 - Tensorflow-gpu version:  1.3.0
 
 ## Example to run the codes.
-
+Run FISM.py
 ```
 python FISM.py --dataset delicious --batch_choice user --embed_size 16  --lr 0.01
 ```
