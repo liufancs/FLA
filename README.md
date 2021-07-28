@@ -26,7 +26,7 @@ python NAIS.py --dataset delicious --batch_choice user --weight_size 16 --embed_
 ```
 python NAIS.py --dataset delicious --batch_choice user --weight_size 16 --embed_size 16  --pretrain 1 --prelr 0.01 --lr 0.01 --beta 0.7
 ```
-Run NAIS1.py
+Run NAIS1.py (delicious)
 ```
 python NAIS1.py --dataset delicious --batch_choice user --weight_size 16 --embed_size 16  --pretrain 0 --lr 0.01 --beta 0.7
 ```
@@ -35,7 +35,7 @@ python NAIS1.py --dataset delicious --batch_choice user --weight_size 16 --embed
 python NAIS1.py --dataset delicious --batch_choice user --weight_size 16 --embed_size 16  --pretrain 1 --prelr 0.01 --lr 0.01 --beta 0.7
 ```
 
-Run NAIS2.py
+Run NAIS2.py (delicious)
 ```
 python NAIS2.py --dataset delicious --batch_choice user --weight_size 16 --embed_size 16  --pretrain 0 --lr 0.01 --beta 0.7
 ```
