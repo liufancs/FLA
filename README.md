@@ -8,8 +8,8 @@ Zhiyong Cheng, Fan Liu, Shenghan Mei, Yangyang Guo, Lei Zhu and Liqiang Nie. Fea
 - Tensorflow-gpu version:  1.3.0
 
 ## Example to run the codes.
-# delicious and Beauty
-Run FISM.py
+
+Run FISM.py (delicious and Beauty)
 ```
 python FISM.py --dataset delicious --batch_choice user --embed_size 16  --lr 0.01
 ```
@@ -18,8 +18,7 @@ python FISM.py --dataset delicious --batch_choice user --embed_size 16  --lr 0.0
 python FISM.py --dataset Beauty --batch_choice user --embed_size 16  --lr 0.01
 ```
 
-# delicious
-Run NAIS.py
+Run NAIS.py (delicious)
 ```
 python NAIS.py --dataset delicious --batch_choice user --weight_size 16 --embed_size 16  --pretrain 0 --lr 0.01 --beta 0.7
 ```
