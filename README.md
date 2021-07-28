@@ -19,25 +19,25 @@ python FISM.py --dataset Beauty --batch_choice user --embed_size 16  --lr 0.01
 
 
 ```
-python NAIS.py --dataset delicious --batch_choice user --weight_size 16 --embed_size 16  --pretrain 0 --lr 0.01 
+python NAIS.py --dataset delicious --batch_choice user --weight_size 16 --embed_size 16  --pretrain 0 --lr 0.01 --beta 0.7
 ```
 
 ```
-python NAIS.py --dataset delicious --batch_choice user --weight_size 16 --embed_size 16  --pretrain 1 --prelr 0.01 --lr 0.01 
+python NAIS.py --dataset delicious --batch_choice user --weight_size 16 --embed_size 16  --pretrain 1 --prelr 0.01 --lr 0.01 --beta 0.7
 ```
 
 ```
-python NAIS1.py --dataset delicious --batch_choice user --weight_size 16 --embed_size 16  --pretrain 0 --lr 0.01 
+python NAIS1.py --dataset delicious --batch_choice user --weight_size 16 --embed_size 16  --pretrain 0 --lr 0.01 --beta 0.7
 ```
 
 ```
-python NAIS1.py --dataset delicious --batch_choice user --weight_size 16 --embed_size 16  --pretrain 1 --prelr 0.01 --lr 0.01 
+python NAIS1.py --dataset delicious --batch_choice user --weight_size 16 --embed_size 16  --pretrain 1 --prelr 0.01 --lr 0.01 --beta 0.7
 ```
 
 ```
-python NAIS2.py --dataset delicious --batch_choice user --weight_size 16 --embed_size 16  --pretrain 0 --lr 0.01 
+python NAIS2.py --dataset delicious --batch_choice user --weight_size 16 --embed_size 16  --pretrain 0 --lr 0.01 --beta 0.7
 ```
 
 ```
-python NAIS2.py --dataset delicious --batch_choice user --weight_size 16 --embed_size 16  --pretrain 1 --prelr 0.01 --lr 0.01 
+python NAIS2.py --dataset delicious --batch_choice user --weight_size 16 --embed_size 16  --pretrain 1 --prelr 0.01 --lr 0.01 --beta 0.7
 ```
