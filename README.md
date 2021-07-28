@@ -16,3 +16,28 @@ python FISM.py --dataset delicious --batch_choice user --embed_size 16  --lr 0.0
 ```
 python FISM.py --dataset Beauty --batch_choice user --embed_size 16  --lr 0.01
 ```
+
+
+```
+python -u NAIS.py --dataset delicious --batch_choice user --weight_size 16 --embed_size 16  --pretrain 0 --lr 0.01 
+```
+
+```
+python -u NAIS.py --dataset delicious --batch_choice user --weight_size 16 --embed_size 16  --pretrain 1 --prelr 0.01 --lr 0.01 
+```
+
+```
+python -u NAIS1.py --dataset delicious --batch_choice user --weight_size 16 --embed_size 16  --pretrain 0 --lr 0.01 
+```
+
+```
+python -u NAIS1.py --dataset delicious --batch_choice user --weight_size 16 --embed_size 16  --pretrain 1 --prelr 0.01 --lr 0.01 
+```
+
+```
+python -u NAIS2.py --dataset delicious --batch_choice user --weight_size 16 --embed_size 16  --pretrain 0 --lr 0.01 
+```
+
+```
+python -u NAIS2.py --dataset delicious --batch_choice user --weight_size 16 --embed_size 16  --pretrain 1 --prelr 0.01 --lr 0.01 
+```
