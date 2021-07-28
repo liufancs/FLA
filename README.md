@@ -2,7 +2,7 @@
 
 This is our implementation for the paper:
 
-Zhiyong Cheng, Fan Liu, Shenghan Mei, Yangyang Guo, Lei Zhu and Liqiang Nie. Feature-level Attentive ICF for Recommendation. Transactions on Information Systems. 
+Zhiyong Cheng, Fan Liu, Shenghan Mei, Yangyang Guo, Lei Zhu and Liqiang Nie. Feature-level Attentive ICF for Recommendation. Transactions on Information Systems (Under review). 
 
 ## Environment Settings
 - Tensorflow-gpu version:  1.3.0
